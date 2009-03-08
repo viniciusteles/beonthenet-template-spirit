@@ -1,0 +1,485 @@
+/* Typography global attributes */
+html * {
+  list-style-type:			none;
+  font:						normal normal normal 1em/1em;
+  font-family:				"Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+}
+
+p, li, dd, dt {
+	font-size:              75%;
+	line-height:            1.7em;
+	font-weight:normal
+}
+
+strong {
+  font-weight:            bold;
+}
+
+em {
+  font-style:             italic;
+}
+
+h1 {
+  font-size:              155%;
+
+}
+
+h2 {
+  font-size:              95%;
+}
+
+h3, h3 a, h3 a:visited {
+	color:#ffc600;
+	font-size:15px;
+}
+
+h3, h3 a:hover, a:focus {
+	color:#ffe400;
+}
+
+h4, h4 a, h4 a:visited {
+	letter-spacing:0.05em;
+	color:#6377a2;
+	font-size:95%;
+	font-weight:lighter;
+	text-decoration:        none;
+}
+
+h4 a:focus, h4 a:hover {
+	color:#8098cc;
+}
+/* /Typography global attributes */
+
+
+/* Header tabbed menu */
+#header h1 img {
+  font-size:              90%;
+  word-spacing:           0.2em;
+}
+
+#header h1 a, h1 a:visited {
+	text-decoration:none
+}
+
+h2#slogan {
+	font-size:85%;
+	font-weight:lighter;
+}
+
+#header li {
+	font-size:              100%;
+	letter-spacing:			1px;
+	line-height:            1em;
+}
+
+#header li a {
+	font-size:100%;
+	text-decoration:        none;
+	text-transform:         lowercase;
+}
+
+#header h1#logo_screen {
+	letter-spacing:0.02em;
+	text-align:center;
+}
+
+#header h1#logo_screen a, h1#logo_screen a:visited {
+	color:#FFFFFF;
+}
+
+/* /Header tabbed menu */
+
+
+/* Thumbnails */
+
+
+ul#thumbnails li div a {
+  font-size:     	         80%;
+  text-align:             center;
+  text-decoration:        none;
+}
+
+ul#thumbnails li {
+  font-size:     	         80%;
+}
+
+ul#thumbnails a img {
+	font-size:              80%;
+}
+/* /Thumbnails */
+
+
+/* Summary */
+#summary #see_data_sheet {
+  text-transform:         uppercase;
+	line-height:            2.5em;
+}
+
+/* /Summary */
+
+#summary a, a:visited{
+	color:#7b7ba4;
+}
+
+#summary a:hover{
+	color:#8585cc;
+}
+
+
+/* Link to Selection */
+#select_pictures a {
+  line-height:            1.4em;
+}
+/* /Link to Selection */
+
+
+/* Paging */
+.pages {
+  text-align:             right;
+  font-size:75%;
+}
+
+.pages a {
+	color:                  #2a7b8e;
+  line-height:            1em;
+  word-spacing:           .5em;
+  letter-spacing:0.1em;
+  text-decoration:none;
+}
+
+.pages a:hover, 
+.pages a.previous:hover,
+.pages a.next:hover {
+  text-decoration:        none;
+}
+
+.pages strong {
+  font-weight:            bold;
+  font-size:              150%;
+}
+/* /Paging */
+
+
+/* Data sheet */
+#data_sheet h2 {
+  font-size:              120%;
+}
+
+#data_sheet li {
+  line-height:            2em;
+}
+
+#data_sheet dl * {
+	text-decoration:none;
+	font-size:              100%;
+	line-height:            1.4em;
+}
+
+#data_sheet dl a {
+	color:#ffc600
+}
+
+#data_sheet dl a:hover {
+	color:#ffe400
+}
+
+#data_sheet dt {
+	font-weight:            bold;
+	text-indent:            2em;
+}
+/* /Data sheet */
+
+
+/* Big picture, big video */
+#big_picture, #big_video {
+	text-align:             center;
+}
+
+#big_picture a, #big_video a {
+  font-size:              75%;
+	text-align:             left;
+}
+
+#big_picture img {
+	font-size:              125%;
+	text-align:             center;
+	line-height:            1.5em;
+}
+
+#big_video object * {
+  text-align:             justify;
+}
+
+#big_video object h1 {
+  text-align:             left;
+}
+
+#big_video object p {
+  font-size:              90%;
+  line-height:            1.75em;
+}
+
+#big_video object a {
+  font-size:              100%;
+}
+
+#big_picture label, #big_video label {
+	font-size:              140%;
+	text-align:             center;
+	letter-spacing:         -.05em;
+}
+
+#big_video label span {
+  font-size:              55%;
+}
+/* /Big picture, big video */
+
+
+/* Tags */
+#tags p {
+  line-height:            .5em;
+}
+
+#tags a:hover {
+  text-decoration:        none;
+}
+/* /Tags */
+
+
+/* Selection */
+#go_to_selection a {
+	text-decoration:none
+}
+
+#selection #main_content {
+	margin-top:-10px;
+}
+
+#thumbnails label, 
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+  line-height:            1.3em;
+}
+#thumbnails label {
+	font-size:              100%;
+}
+
+#all_pictures a, #cart_items a, #selected_pictures a {
+	text-decoration:        none;
+}
+#all_pictures a:hover, 
+#cart_items a:hover, 
+#selected_pictures a:hover {
+	font-size:              0;
+}
+
+#selected_pictures a.remove_picture:hover {
+	font-size:              inherit;
+}
+
+.go_to_checkout {
+  text-align:             right;
+	font-size:              80%;
+	line-height:            1.2em;
+}
+
+body#selection #selection_size, 
+body#selection #selection_size label {
+	font-size:              100%;
+	font-weight:            bold;
+	line-height:            2em;
+}
+
+body#checkout #selection_size label, 
+body#search #search_result_count label {
+  font-weight:            bold;
+  font-size:              110%;
+}
+
+#back_to_gallery {
+	text-align:             center;
+}
+/* /Selection */
+
+
+/* Who */
+.quem_somos h1 + p:first-letter {
+  font-size:              150%;
+  line-height:            2em;
+}
+
+.quem_somos #main_content strong {
+  font-weight:            normal;
+}
+
+.quem_somos cite {
+  text-align:             right;
+}
+/* /Who */
+
+
+/* Forms (contact, checkout, search) */
+label {
+  font-size:              75%;
+	text-align:             right;
+	line-height:            1.2em;
+}
+
+input, textarea {
+  font-size:              93%;
+	line-height:            1.2em;
+}
+
+button {
+  font-size:              75%;
+  line-height:            1.5em;  
+}
+
+#wait_message {
+	text-align:             center;
+}
+
+#submit_error, #submit_success {
+  text-align:             center;
+  line-height:            1.5em;
+}
+
+body#checkout #order_form p {
+	font-size:              90%;
+  text-align:             center;
+	line-height:            2.5em;
+}
+
+#search #query {
+	text-indent:            .2em;
+	line-height:            1.2em;
+}
+/* /Forms (contact, checkout, search) */
+
+
+/* Errors (404, 500, timeout, empty search results) */
+p#not_found, .error_description {
+	font-size:              95%;
+  text-align:             center;
+	line-height:            1.7em;
+}
+
+.error_hints li {
+  list-style-type:        disc;
+}
+
+.error_hints li a, .error_hints li a:visited {
+	color:#7b7ba4;
+	text-decoration:none;
+}
+
+.error_hints li a:hover {
+	color:#8585cc;
+	text-decoration:none;
+}
+
+
+
+  
+#valid_search_suggestions li {
+	color: #ff90fb;
+	list-style:url(../images/moon.gif);
+	font-size:              90%;
+	line-height:            1.4em;
+}
+
+#valid_search_suggestions a {
+	color: #7b7ba4;
+	text-decoration:none;
+}
+
+#valid_search_suggestions a:hover {
+	color: #8585cc;
+	text-decoration:none;
+}
+/* /Errors (404, 500, timeout, empty search results) */
+
+
+/* Facebox */
+#facebox a {
+	color:#000;
+	font-size:              80%;
+	text-transform:         uppercase;
+	text-align:             right;
+}
+/* /Facebox */
+
+
+/* Footer */
+#footer p, #footer h6 {
+  text-align:             right;
+  color:#a5a5cb;
+  line-height:						1.25em;
+}
+
+#footer strong {
+	color:#a5a5cb;
+	text-align:             right;
+	line-height:						1.25em;
+}
+
+#footer h6 {
+  font-size:							70%;
+}
+
+#footer a {
+	color:#7575a8;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	color:#9898d2;
+}
+/* /Footer */
+
+
+
+/* Instructions */
+body.instructions #main_content dt {
+  font-weight:            bold;
+  font-size:              80%;
+}
+
+.instructions #main_content dd, 
+.instructions #main_content ul li {
+  text-align:             justify;
+}
+
+.instructions #main_content ul li {
+  list-style:             circle;
+}
+
+.instructions #main_content ul ul li {
+  list-style:             disc;
+  font-size:              95%;
+}
+
+code {
+  font:                   normal normal normal 80%/1.2em "Lucida Console", "Monaco", monospace; 
+}
+
+p code {
+  font-size:              110%;
+}
+
+.instructions th {
+  font-size:              90%;
+}
+
+.instructions td {
+  font-size:              85%;
+} 
+
+.instructions td span {
+  font-size:              82%;
+}
+
+.instructions td a {
+  font-size:              80%;
+}
+/* /Instructions */

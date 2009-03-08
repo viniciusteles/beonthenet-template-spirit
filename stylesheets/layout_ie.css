@@ -1,0 +1,82 @@
+/* Style sheet with conditions for Internet Explorer. */
+
+hr {
+  margin:                 -8px 0 -7px 0;
+}
+
+#header li {
+	padding:                0;
+	position:relative;
+	top:3px
+}
+
+#global_search {
+	top:                    2.4em;
+}
+
+#header h1#logo_screen {
+	float:none
+}
+
+#header h2#slogan {
+	position:absolute;
+	top:78px;
+	margin-left:0em;
+}
+
+/* Vertically centering images */
+ul#thumbnails li div a {
+	display:                block;
+}
+ul#thumbnails li div span.ie {
+	display:                inline-block;
+	vertical-align:         middle;
+	height:                 100%;
+}
+
+ul#thumbnails h3 a {
+	line-height:1.5em
+}
+
+.second {
+  bottom:                 40px;
+}
+
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+	filter:                 alpha(opacity=70);
+}
+
+
+body#selection #selection_size {
+  right:                  35.1em;
+	top:										.4em
+}
+
+#cart_items {
+  width:                  20.3em;
+	margin-left:						34em;
+
+}
+
+#selection #main_content {
+	margin-top:0px;
+}
+
+.moved_to_cart {
+	filter:                 alpha(opacity=30);
+}
+
+label {
+	margin-top:             .3em;
+}
+
+#submit_button {
+	width:                  12em;
+	margin-left:            43%;
+}
+
+/* IE7: */
+*:first-child + html #facebox a {
+	right:                  -18px;
+}

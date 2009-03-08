@@ -1,0 +1,613 @@
+
+html * {
+  color:                  #dbdbdb;
+}
+
+html {
+  background:             #111111 url(../images/site_hatching.gif) repeat-x left top;
+}
+
+h1 {
+  color:                  #ababc3;
+}
+
+h2 {
+  color:                  #ababc3;
+}
+
+h3 {
+	padding-top:10px;
+	line-height:1.5em;
+	color:                  #ababc3;
+}
+
+h3 a {
+	padding-top:10px;
+	line-height:8px;
+	text-decoration:none;
+}
+
+h4, h4 a {
+
+}
+/* /Color global attributes */
+
+
+/* Header tabbed menu */
+#header {
+  background:             url(../images/header_shading.png) top;
+  border-bottom:1px solid #3b3b48
+  
+}
+
+#header h1 img {
+	color:#FFFFFF;
+
+}
+
+#header li a {
+  color:                  #efefef;
+  margin-left:0%
+}
+
+#header li a:visited {
+  color:                  #efefef;
+  
+}
+#header li a:hover {
+	color:                  #ffde00;
+}
+#header li a:active {
+	color:                  #d587ef;
+
+}
+
+body.best_galleries #header li.best_galleries, 
+body.full_galleries #header li.full_galleries, 
+body.videos #header li.all_videos, 
+body.quem_somos #header li.quem_somos, 
+body.contact #header li.contact, 
+body.blog #header li.blog {
+
+}
+
+body.best_galleries #header li.best_galleries a,
+body.full_galleries #header li.full_galleries a, 
+body.videos #header li.all_videos a, 
+body.quem_somos #header li.quem_somos a,
+body.contact #header li.contact a, 
+body.blog #header li.blog a {
+	color:                  #ffc600;
+}
+
+body.best_galleries #header li.best_galleries a:hover,
+body.full_galleries #header li.full_galleries a:hover, 
+body.videos #header li.all_videos a:hover, 
+body.quem_somos #header li.quem_somos a:hover,
+body.contact #header li.contact a:hover, 
+body.blog #header li.blog a:hover {
+  color:                  #ffde00;
+}
+
+#header li.best_galleries {
+
+}
+
+body.best_galleries #header li.best_galleries {
+
+}
+
+#header li.full_galleries {
+
+}
+body.full_galleries #header li.full_galleries {
+
+}
+body.full_galleries #header li.full_galleries  a:hover {
+
+
+}
+
+#header li.all_videos {
+
+}
+
+
+body.videos #header li.all_videos {
+
+}
+
+#header li.blog {
+
+}
+body.blog #header li.blog {
+
+}
+
+#header li.quem_somos {
+
+}
+
+body.quem_somos #header li.quem_somos {
+
+}
+
+#header li.contact {
+
+}
+body.contact #header li.contact {
+
+}
+/* /Header tabbed menu */
+
+
+/* Main content top segment */
+#main_content {
+	background: #292938;
+	border-right:1px solid #3b3b48;
+	border-left:1px solid #3b3b48;
+}
+
+#main_content h1{
+	color:#d7d7d9;
+	border-bottom: 1px solid #3b3b48;
+}
+
+
+#go_back_to_thumbnails {
+	background:             transparent url(../images/arrow_left.gif) no-repeat left center;
+	padding-left: 20px;
+	padding-top:2px;
+	text-decoration:none
+}
+
+#go_back_to_thumbnails:hover{
+	background:             transparent url(../images/arrow_left_hover.gif) no-repeat left center;
+	padding-left: 20px;
+	padding-top:2px;
+	text-decoration:none
+}
+
+#go_to_gallery {
+	background:             transparent url(../images/gallery_album.gif) no-repeat left center;
+	padding-left: 20px;
+	padding-top:2px;
+	text-decoration:none
+}
+
+#see_data_sheet {
+	background:             transparent url(../images/arrow_down.gif) no-repeat left center;
+	padding-left: 20px;
+	padding-top:2px;
+	text-decoration:none
+}
+
+#see_data_sheet:hover {
+	background:             transparent url(../images/arrow_down_hover.gif) no-repeat left center;
+	padding-left: 20px;
+	padding-top:2px;
+	text-decoration:none
+}
+/* /Main content top segment */
+
+
+/* Thumbnails */
+
+/* Vertically centering images 
+(conditional comments for IE required) */
+ul#thumbnails li div a {
+	background:             url(../images/thumbnail_box.gif);
+}
+
+ul#thumbnails li div a:visited {
+	background:             url(../images/thumbnail_box_visited.gif);
+}
+ul#thumbnails li div a:hover {
+	background:             url(../images/thumbnail_box_hover.gif);
+}
+
+
+ul#thumbnails a img{
+
+}
+
+ul#thumbnails label {
+	background:#383849;
+	color:                  #d9d9d9;
+	padding:3px;
+}
+
+
+ul#thumbnails a:hover img {
+	color:                  #FFF;
+
+}
+
+ul#thumbnails  a:hover label {
+	color:                  #fff;
+	padding:				3px;
+}
+/* /Thumbnails */
+
+
+/* Summary */
+#summary, #about_us, #data_sheet, .error_hints {
+	background: #17171f;
+	border:1px solid #000;
+}
+/* /Summary */
+
+
+/* Link to Selection */
+#select_pictures a {
+	background:             url(../images/select_pictures.gif) no-repeat top left;
+}
+#select_pictures a:link, 
+#select_pictures a:visited {
+  color:                  #7b7ba4;
+  text-decoration:none
+}
+
+#select_pictures a:hover {
+  color:                  #8585cc;
+	background:             url(../images/select_pictures_hover.gif) no-repeat top left;
+}
+/* /Link to Selection */
+
+
+/* Paging */
+.pages {
+	background: #17171f;
+	border:1px solid #000;
+}
+
+.pages a {
+	color:                  #cacaca;
+	padding:0 4px 0 4px;
+    background-color:#333344;
+}
+
+.pages a:visited {
+	color:                  #cacaca;
+	padding:0 4px 0 4px;
+    background-color:#333344;
+}
+
+.pages a.previous:visited,
+.pages a.next:visited {
+	color:                  #cacaca;
+	padding:0 4px 0 4px;
+    background-color:#333344;
+}
+
+.pages a.previous {
+	color:                  #cacaca;
+	padding:0 4px 0 4px;
+    background-color:#333344;
+}
+
+.pages a.previous:hover {
+	color:                  #cacaca;
+    background-color:#333344;
+}
+.pages a.next {
+	color:                  #cacaca;
+	padding:0 4px 0 4px;
+    background-color:#333344;
+}
+.pages a.next:hover {
+	color:                  #cacaca;
+    background-color:#4a4a63;
+}
+.pages a:hover {
+	color:                  #cacaca;
+    background-color:#4a4a63;
+}
+.pages a:hover, 
+.pages a.previous:hover,
+.pages a.next:hover {
+  color:                  #ffffff;
+}
+
+.pages strong {
+  color:                  #000;
+  background:#d9d9d9;
+}
+/* /Paging */
+
+
+/* Data sheet */
+#data_sheet li {
+	color:                  #fff;
+	font-weight:bold
+}
+/* /Data sheet */
+
+
+/* Big picture, big video */
+#big_picture a span, #big_video span {
+	background:             transparent url(../images/arrow_previous.gif) no-repeat center right;
+}
+#big_picture a#previous:hover span, #big_video a#previous:hover span {
+	background-image:       url(../images/arrow_previous_hover.gif);
+}
+#big_picture a#previous:active span, #big_video a#previous:active span {
+	background-image:       url(../images/arrow_previous_active.gif);
+}
+#big_picture #next span, #big_video #next span {
+	background:             transparent url(../images/arrow_next.gif) no-repeat center left;
+}
+#big_picture a#next:hover span, #big_video a#next:hover span {
+	background-image:       url(../images/arrow_next_hover.gif);
+}
+#big_picture a#next:active span, #big_video a#next:active span {
+	background-image:       url(../images/arrow_next_active.gif);
+}
+
+#big_picture img {
+  color:                  #6849c1;
+}
+
+#big_picture label {
+	background:				#292938;
+	color:#d3d3d3;
+	
+}
+
+#big_video label span {
+  background:             none;
+}
+/* /Big picture, big video */
+
+
+/* Tags */
+#tags a {
+	padding: 0px 3px 0px 3px;
+	color:                  #7c7c9e;
+}
+
+#tags a:visited {
+	padding: 0px 3px 0px 3px;
+	color:                  #7c7c9e;
+}
+
+#tags a:hover {
+	padding: 0px 3px 0px 3px;
+	color:                  white;
+	background-color:       #44445d;
+}
+/* /Tags */
+
+
+/* Selection */
+.go_to_checkout a {
+  color:                  #7b7ba4;
+  text-decoration:none;
+}
+
+.go_to_checkout a:hover {
+  color:                  #8585cc;
+  text-decoration:none;
+}
+
+body#selection #selection_size {
+	color:                  #292938;
+}
+
+#selection_size label {
+	color:                  #F6F0DB;
+}
+
+#cart_items {
+	border-color:           #5c5c79;
+	background-color:#292938;
+}
+
+#cart_items.instructions {
+	background:             #48485e url(../images/selection_instructions.gif) no-repeat center center;	
+}
+
+#all_pictures li label, #all_pictures li a, 
+#cart_items label, #cart_items a, 
+#selected_pictures label, #selected_pictures a {
+	background-color:       #292938;
+}
+
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+	color:                  #fff;
+	opacity:                .7;
+}
+
+#all_pictures a:hover, 
+#cart_items a:hover, 
+#selected_pictures a:hover {
+	background:             #5c5c79 url(../images/magnifying_glass.gif) no-repeat top;
+}
+
+#selected_pictures a.remove_picture:hover {
+	background:             none;
+}
+
+body#selection #selection_size label {
+	background:             url(../images/tab_selection_size.gif) no-repeat left center;
+}
+
+.go_to_checkout {
+	background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
+}
+
+.moved_to_cart {
+	opacity:                .3;
+}
+/* /Selection */
+
+
+/* Who */
+.quem_somos dt, 
+.quem_somos #main_content strong {
+  color:                  #ffc600;
+}
+
+.quem_somos cite {
+	background:             transparent url(../images/signature_patfig.gif) no-repeat right top;
+}
+/* /Who */
+
+
+/* Forms (contact, checkout, search) */
+label {
+	color:                  #dbdbdb;
+}
+
+input, textarea {
+	color:                  #111;
+	background:				#fff;
+	border:					#000 solid 1px;
+}
+
+input:hover, textarea:hover {
+	background:				#fff;
+	border:					#000 solid 1px;
+}
+
+input:active, input:focus,
+textarea:active, textarea:focus {
+	background:				#fff url(../images/bg_input_on.gif) repeat-x bottom;
+	border:					#000 solid 1px;
+}
+
+button {
+	color:					#9e9ee7;
+	background-color:				#33335a;
+	border:solid 1px #424273
+}
+button:hover {
+	border:solid 1px #424273;
+	background-color:		#404070;
+	color:#b6b6ff
+}
+
+.submitting, .submitting:hover {
+	color:					#ffc600;
+	background:             #33335a url(../images/spinner_form.gif) no-repeat 95% center;
+	background-color:				#33335a;
+	border:solid 1px #424273
+}
+
+.email_field_with_errors, .email_field_with_errors:hover, .email_field_with_errors:focus{
+  	color:                  #fff;
+	border:					#af464a solid 1px;
+	background:				#f88181;
+}
+
+#submit_error {
+	background-color:       #f88181;
+	color:#770000;
+	border: #a31212 1px solid;
+}
+
+#submit_success {
+	background-color:       #faefb3;
+	border: 1px #ffcc66 solid;
+	color: #cc6600
+}
+
+/* Specific for global search form */
+#global_search {
+	background:             transparent url(../images/search_corner_left.gif) no-repeat left center;
+	margin-top:30px
+}
+
+#global_search fieldset {
+	background:             transparent url(../images/search_corner_right.gif) no-repeat right center;
+}
+
+#global_search #query {
+	color:                  #a5a5cb;
+	background:#181831;
+	border-top-color:       #343455;
+	border-bottom-color:    #343455;
+}
+/* /Forms (contact, checkout, search) */
+
+
+/* Errors (404, 500, timeout, empty search results) */
+.error_description {
+	background:             url(../images/error_404.gif) no-repeat center top;
+}
+
+#error_500 {
+	background-image:       url(../images/error_500.gif);
+}
+
+#error_timeout {
+	background-image:       url(../images/error_timeout.gif);
+}
+
+#searched_item {
+	color:                  #ffc600;
+}
+/* /Errors (404, 500, timeout, empty search results) */
+
+
+/* Facebox */
+#facebox * {
+	background:             transparent url(../images/facebox_bg.gif) top left;
+}
+
+#facebox {
+	background:             none;
+}
+/* /Facebox */
+
+
+/* Footer */
+#footer {
+	background:             #292938 url(../images/footer.gif) repeat-x;
+	background-position:0;
+	border-left:1px solid #3b3b48;
+	border-right:1px solid #3b3b48;
+	border-bottom:1px solid #3b3b48;
+}
+
+#footer p {
+	margin-bottom:          .5em;
+}
+/* /Footer */
+
+
+
+/* Instructions */
+body.instructions #toc {
+  background:             #EFE3C3;
+  border-color:           #E0C99B;
+}
+
+body.instructions #main_content dt {
+  color:                  #940029;
+}
+
+code {
+  color:                  #111;
+  background:             #EFE3C3; 
+}
+
+.instructions table * {
+  border-color:           #E0C99B;
+}
+
+.instructions th {
+  color:                  #940029;
+  background:             #EFE3C3;
+}
+
+.instructions td span {
+  color:                  #BAA984;
+}
+
+pre {
+  background:             #EFE3C3;
+  border-color:           #E0C99B;
+}
+/* /Instructions */
