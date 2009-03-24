@@ -1,82 +1,81 @@
 /* Style sheet with conditions for Internet Explorer. */
 
-hr {
-  margin:                 -8px 0 -7px 0;
+body, #main_content h1, 
+#checkout #main_content h2 {
+  position:             relative;
 }
 
-#header li {
-	padding:                0;
-	position:relative;
-	top:3px
+hr {
+  margin:               -8px 0 -7px 0;
+}
+
+
+#header ul {
+  top:                  66px;
 }
 
 #global_search {
-	top:                    2.4em;
-}
-
-#header h1#logo_screen {
-	float:none
+  top:                  2.4em;
 }
 
 #header h2#slogan {
-	position:absolute;
-	top:78px;
-	margin-left:0em;
+  position:             absolute;
+  top:                  78px;
+  left:                 60px;
 }
 
-/* Vertically centering images */
-ul#thumbnails li div a {
-	display:                block;
-}
-ul#thumbnails li div span.ie {
-	display:                inline-block;
-	vertical-align:         middle;
-	height:                 100%;
-}
-
-ul#thumbnails h3 a {
-	line-height:1.5em
-}
 
 .second {
-  bottom:                 40px;
+  bottom:               40px;
 }
+
+
+#thumbnails {
+  margin-right:         -3.9em;
+  margin-left:          0;
+}
+
+#thumbnails li div a {
+  display:              block;
+}
+
+#thumbnails li div span.ie {
+  display:              inline-block;
+	vertical-align:       middle;
+  height:               99%;
+}
+#thumbnails li div img {
+  vertical-align:       middle;
+}
+
 
 #all_pictures label, #cart_items label, 
 #selected_pictures label {
-	filter:                 alpha(opacity=70);
-}
-
-
-body#selection #selection_size {
-  right:                  35.1em;
-	top:										.4em
-}
-
-#cart_items {
-  width:                  20.3em;
-	margin-left:						34em;
-
-}
-
-#selection #main_content {
-	margin-top:0px;
+	filter:               alpha(opacity=70);
 }
 
 .moved_to_cart {
-	filter:                 alpha(opacity=30);
+	filter:               alpha(opacity=30);
 }
 
-label {
-	margin-top:             .3em;
+#selection #selection_size {
+  right:                28.25em;
+  top:                  0;
+}
+#selection #selection_size label {
+  display:              block;
+  width:                auto;
 }
 
-#submit_button {
-	width:                  12em;
-	margin-left:            43%;
+#cart_items {
+  margin-left:          34em;
 }
 
-/* IE7: */
+
 *:first-child + html #facebox a {
-	right:                  -18px;
+  right:                -18px;
+}
+
+#facebox img {
+  margin-bottom:        -5px !important;
 }
