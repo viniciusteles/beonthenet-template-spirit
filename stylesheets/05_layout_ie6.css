@@ -7,6 +7,11 @@
   margin-left:          1em;
 }
 
+body.videos #thumbnails img {
+  width:                240px;
+  width:                expression(this.width > 240 ? "240px" : true);
+}
+
 #cart_items li {
   margin:               3px 2px;
 }
