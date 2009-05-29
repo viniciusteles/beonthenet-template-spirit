@@ -1,62 +1,3 @@
-/* Cores:
-#111    - Cinza quase preto (ou pouco mais escuro que #16161F) (html; input, textarea) (pode ser dominante sobre #000)
-#DBDBDB - Cinza claro (parecido com # , #D7D7D9, #CACACA) (html *, label) <<-- IMPORTANTE! Só um seletor, mas se aplica a tudo! Não subestimar! (pode ser dominante)
-#9E9EE7 - Azul lavanda claro para médio (button)
-#33335A - Azul marinho (button; .submitting, .submitting:hover)
-#424273 - Azul marinho claro (parecido com #404070) (border-color de: button; .submitting, .submitting:hover) (pode ser dominante)
-#B6B6FF - Azul lavanda claro (parecido com #A7A7F9) (button:hover)
-#404070 - Azul marinho claro (parecido com #424273) (background-color de: button:hover) (extinto por #424273)
-#ABABC3- Cinza azulado claro (parecido com #A5A5CB) (color de: h2; h3; #header h2#slogan)
-#F498DA - Rosa vivo claro (cor de: h3, h3 a, h3 a:visited; #data_sheet dl a, #searched_item, .text dt, .text #main_content strong; #header li.current a; 
-                          .submitting, .submitting:hover)
-#EF72CC - Rosa vivo médio (h3, h3 a:hover, a:focus, #data_sheet dl a:hover; #header li a:active)
-
-#6C6CB1 - Azul lavanda escuro (h4, h4 a, h4 a:visited)
-#7676DC - Azul lavanda médio (parecido com #8585CC) (h4 a:focus, h4 a:hover)
-#CCC    - Cinza claro para médio (levemente mais escuro que !#DBDBDB, #D9D9D9, #D3D3D3 e #D7D7D9) (input, textarea)
-#2A7B8E - Azul piscina escuro (color de: .pages a) (cor bonita, mas fica bizarra onde está)
-#D9D9D9 - Cinza claro (parecido com !#DBDBDB e #D7D7D9) (.pages strong; #thumbnails label)
-#16161F - Cinza azulado quase preto (parecido com #17171F e pouco mais claro que #111) (#toc, pre; code, .text th; .text table *)
-#292938 - Azul marinho escuro (#main_content)
-#7B7BA4 - Azul lavanda escuro desbotado (parecido com #7575A8, #6D6DA2 e #7C7C9E) (usado só em color; pode ser predominante em relação aos três)
-#6849C1 - Azul lavanda médio para escuro (#big_picture img)
-#4A4A5F - Cinza azulado escuro (parecido com #48485E e #44445D) (#big_picture img; #big_picture label)
-
-#D3D3D3 - Cinza claro (ligeiramente mais escuro que !#DBDBDB, #D9D9D9 ou #D7D7D9) (#big_picture label; #tags h3)
-#5C5C79 - Cinza azulado médio (#cart_items; #all_pictures a:hover, #cart_items a:hover, #selected_pictures a:hover)
-#48485E - Cinza azulado escuro (parecido com #4A4A5F e #44445D) (background-color de: #cart_items.instructions)
-#3B3B48 - Cinza azulado escuro principal (parecido com #383849 e #333344) (borders: #header; #main_content; #main_content h1; #footer; pre, #toc)
-          (pode ser dominante sobre #383849 e #333344)
-#7575A8 - Azul lavanda escuro desbotado (parecido com #7B7BA4 e #06D6DA2) (#footer a) (extinto por #7B7BA4)
-#A5A5CB - Cinza azulado claro (parecido com #ABABC3) (color de: #footer p, #footer h6, #footer strong; #global_search #query)
-#181831 - Azul quase preto (#global_search #query)
-#6D6DA2 - Azul lavanda escuro desbotado (parecido com #7B7BA4 e #7575A8, mas menos desbotado) (#header li a; #header li a:visited)
-#D7D7D9 - (#main_content h1) (parecido com !#DBDBDB e #D9D9D9, e ligeiramente mais claro que #D3D3D3)
-#F88181 - Rosa avermelhado claro (background-color de: #submit_error; .email_field_with_errors, .email_field_with_errors:hover, .email_field_with_errors:focus)
-
-#A31212 - Vermelho escuro (border-color de: #submit_error)
-#770000 - Vermelho escuro quase vinho (color de: #submit_error)
-#FAEFB3 - Amarelo quase branco (background-color de: #submit_success)
-#FFCC66 - Amarelo claro (border-color de:#submit_success)
-#CC6600 - Amarelo escuro alaranjado (color de: #submit_success)
-#17171F - Cinza azulado quase preto (parecido com #16161F e pouco mais claro que #111) (#summary, #about_us, #data_sheet, .application #main_content ul, .pages)
-          (pode ser dominante sobre #16161F)
-#383849 - Cinza azulado escuro principal (parecido com #3B3B48) (background de: #thumbnails label)
-#8585CC - Azul lavanda médio desbotado (parecido com #7676DC) (color de: #back_to_gallery a:hover; #go_to_selection a:hover; #subnavigation a:hover, #see_data_sheet a:hover; #summary a:hover; .application #main_content ul li a:hover, #valid_search_suggestions a:hover, .go_to_checkout a:hover) (pode ser dominante sobre #7676DC)
-#9898D2 - Azul lavanda médio mais desbotado (#footer a:hover)
-#A7A7F9 - Azul lavanda claro (parecido com #B6B6FF) (#header li a:hover, #header li.current a:hover) (pode ser dominante sobre #B6B6FF)
-
-#7C7C9E - Azul lavanda escuro desbotado (parecido com #7B7BA4 e #7575A8) (#tags a, #tags a:visited)
-#44445D - Cinza azulado escuro (parecido com #4A4A5F, #48485E e #4A4A63) (background de: #tags a:hover) (pode ser dominante sobre os três)
-#AF464A - Rosa avermelhado escuro (border-color de: .email_field_with_errors, .email_field_with_errors:hover, .email_field_with_errors:focus)
-#333344 - Cinza azulado escuro principal (parecido com #3B3B38) (background-color de: .pages a, .pages a:visited, .pages a.previous:visited, .pages a.next:visited, .pages a.previous, .pages a.next; .pages a.previous:hover) (pode ser substituído por #3B3B48)
-#CACACA - Cinza claro (parecio com #DBDBDB) (color de: .pages [various links]) (vai ser extinto por #DBDBDB)
-#4A4A63 - Cinza azulado escuro (parecido com #4A4A5F) (background-color de: .pages a.next:hover, .pages a:hover) (vai ser extinto por #44445D)
-#D587EF - Lilás (color de: #header li a:active) (extinto por #EF72CC)
-#000    - Preto (vai ser extinto por #111)
-#FFF    - Branco
-*/
-
 html {
   background:             #111 url(../images/site_hatching.gif) repeat-x left top;
 }
@@ -202,18 +143,36 @@ code, .text th {
   background-position:    bottom left;
 }
 
+
 #footer {
 	background:             #292938 url(../images/footer.gif) repeat-x scroll center;
 	border-color:           #3B3B48;
 }
 
-#footer a {
-  color:                  #7B7BA4;
+#footer h1, #footer h1 a, 
+#footer h2 {
+  color:                  #DBDBDB;
 }
 
-#footer p, #footer h6, #footer strong {
+#footer a, #footer h1 a:hover, 
+#footer #beonthenet img, 
+#footer #improveit {
+  color:                  #7B7BA4;
+}
+#footer a:hover, 
+#footer #beonthenet:hover img, 
+#footer #improveit:hover {
+  color:                  #8585CC;
+}
+#footer h1 a:hover {
+  color:                  #DBDBDB;
+}
+
+#footer p, #footer strong, 
+#footer h6 {
   color:                  #A5A5CB;
 }
+
 
 #global_search {
   background:             transparent url(../images/search_corner_left.gif) no-repeat left center;
@@ -340,10 +299,6 @@ pre, #toc {
 
 #big_video label span, #selected_pictures a.remove_picture:hover, #facebox {
   background:             none;
-}
-
-#footer a:hover {
-  color:                  #8585CC;
 }
 
 #go_back_to_thumbnails:hover{

@@ -203,9 +203,13 @@ code {
   height:               4.5em;
   position:             relative;
 }
-.pictures#gallery #summary, 
-.pictures#picture #summary {
-  padding-right:        20em;
+#gallery #summary, #picture #summary {
+  padding-right:          20em;
+}
+
+.text #summary {
+  margin-right:           -138px;
+  margin-left:            -138px;
 }
 
 #go_to_selection a {
@@ -410,7 +414,7 @@ body.videos #thumbnails img {
 
 
 /* Selection */
-#selection h1 {
+#selection #main_content h1 {
   float:                left;
 }
 
@@ -595,12 +599,22 @@ body > #facebox {
 	margin-bottom:        2em;
 }
 
-#footer h5, #footer h6 {
-	margin:               0;
+#footer p {
+	margin-bottom:        .5em;
 }
 
-#footer p, #footer p {
-  margin-bottom:        .5em;
+#beonthenet img {
+  width:                95px;
+  height:               22px;
+  margin:               0 -4px -3px 0;
+}
+
+#footer h5 {
+  margin:               2em 0 .25em 0;
+}
+
+#footer h6 {
+	margin:               0;
 }
 /* /Footer */
 
