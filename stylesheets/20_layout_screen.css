@@ -198,18 +198,19 @@ code {
 
 #summary {
   clear:                both;
+  position:             relative;
+}
+
+#gallery #summary, #picture #summary {
   min-height:           4.5em;
   height:               auto !important;
   height:               4.5em;
-  position:             relative;
-}
-#gallery #summary, #picture #summary {
-  padding-right:          20em;
+  padding-right:        20em;
 }
 
 .text #summary {
-  margin-right:           -138px;
-  margin-left:            -138px;
+  margin-right:         -138px;
+  margin-left:          -138px;
 }
 
 #go_to_selection a {
