@@ -20,6 +20,14 @@ h1 {
   font-size:            155%;
 }
 
+#gallery h1, #search h1 {
+  font-size:            95%;
+}
+#gallery h1 em, #search h1 em {
+  font-style:           normal;
+  font-size:            165%; 
+}
+
 h2 {
 	font-size:            95%;
 }
@@ -32,11 +40,13 @@ h3 a {
   text-decoration:      none;
 }
 
-h3, h3 a, h3 a:visited {
+h3, h3 a, h3 a:visited, 
+#thumbnails h2 a, #thumbnails h2 a:visited {
   font-size:            15px;
 }
 
-h4, h4 a, h4 a:visited {
+h4, h4 a, h4 a:visited, 
+#thumbnails h3, #thumbnails h3 a, #thumbnails h3 a:visited {
   font-size:            95%;
   font-weight:          lighter;
   letter-spacing:       0.05em;
@@ -205,12 +215,13 @@ strong {
   text-align:           right;
 }
 
-#footer h1, #footer h2, #footer h6 {
+#footer h2, #footer h3, #footer h6 {
   font-size:							70%;
   font-variant:           normal;
 }
 
-#footer a, #footer h1 a:hover {
+#footer a, #footer h2 a:hover {
+  font-size:            100%;
   text-decoration:      none;
 }
 #footer a:hover, 
@@ -232,15 +243,18 @@ strong {
   text-decoration:      none;
 }
 
-#header h1#logo_screen {
+#logo_screen {
   letter-spacing:       0.02em;
   text-align:           center;
 }
 
-#header h1 a, #header h1 img {
-  font-size:            105%;
+#header p strong a, #header p strong img {
+  font-size:            200%;
   word-spacing:         .2em;
   text-decoration:      none;
+}
+#header p strong img {
+  font-size:            100%;
 }
 
 #header li {
@@ -335,15 +349,22 @@ body#selection #selection_size, body#selection #selection_size label {
   line-height:          2em;
 }
 
-h2#slogan {
-  font-size:            85%;
+#slogan {
+  font-style:           normal;
   font-weight:          lighter;
+  font-size:            85%;
 }
 
 p#not_found, .application #main_content h2 {
   font-size:            95%;
   line-height:          1.7em;
   text-align:           center;
+}
+
+#thumbnails h2, #thumbnails h2 a, #thumbnails h2 a:visited {
+  font-size:            15px;
+  line-height:          1.1em;
+  text-decoration:      none;
 }
 
 #thumbnails li div a {
@@ -368,7 +389,7 @@ p#not_found, .application #main_content h2 {
   text-decoration:      none;
 }
 
-#header h1 a, h1 a:visited, .pages a:hover, .pages a.previous:hover, .pages a.next:hover, #tags a:hover, #go_to_selection a, #all_pictures a, #cart_items a, #selected_pictures a {
+#header p strong a, h1 a:visited, .pages a:hover, .pages a.previous:hover, .pages a.next:hover, #tags a:hover, #go_to_selection a, #all_pictures a, #cart_items a, #selected_pictures a {
   text-decoration:      none;
 }
 
