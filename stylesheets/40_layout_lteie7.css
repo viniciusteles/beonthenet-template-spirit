@@ -18,7 +18,7 @@ hr {
   top:                  2.4em;
 }
 
-#header h2#slogan {
+#slogan {
   position:             absolute;
   top:                  78px;
   left:                 60px;
@@ -78,4 +78,9 @@ hr {
 
 #facebox img {
   margin-bottom:        -5px !important;
+}
+
+
+#message_confirmation_yes {
+  margin-left:            16.5em;
 }
