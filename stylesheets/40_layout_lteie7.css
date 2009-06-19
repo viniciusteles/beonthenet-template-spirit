@@ -59,8 +59,8 @@ hr {
 }
 
 #selection #selection_size {
-  right:                28.25em;
-  top:                  0;
+  right:                27.5em;
+  top:                  -.9em;
 }
 #selection #selection_size label {
   display:              block;
