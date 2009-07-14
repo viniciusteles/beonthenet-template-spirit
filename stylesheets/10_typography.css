@@ -269,9 +269,8 @@ strong {
   text-transform:       lowercase;
 }
 
-#search #query {
-  line-height:          1.2em;
-  text-indent:          .2em;
+#global_search #query {
+  line-height:          22px;
 }
 
 #see_data_sheet {

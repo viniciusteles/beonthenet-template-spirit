@@ -1,5 +1,5 @@
 html {
-  background:             #111 url(../images/site_hatching.gif) repeat-x left top;
+  background:             #111 url(../images/site_shading.png) repeat-x left top;
 }
 
 html *, label {
@@ -181,17 +181,12 @@ code, .text th {
 
 
 #global_search {
-  background:             transparent url(../images/search_corner_left.gif) no-repeat left center;
+  background:             transparent url(../images/global_search_bg.png) no-repeat right;
 }
 
 #global_search #query {
   color:                  #A5A5CB;
-  background:             #181831;
-  border-color:           #181831;
-}
-
-#global_search fieldset {
-  background:             transparent url(../images/search_corner_right.gif) no-repeat right center;
+  background:             transparent url(../images/query.png) no-repeat center;
 }
 
 #go_back_to_thumbnails {
@@ -203,12 +198,16 @@ code, .text th {
 }
 
 #header {
-  background:             url(../images/header_shading.png) top;
+  background:             url(../images/header_bg.jpg) top;
   border-bottom-color:    #3B3B48;
 }
 
 #slogan {
   color:                  #A5A5CB;
+}
+
+#header ul {
+  background:             transparent url(../images/menu_bg.png) no-repeat left;
 }
 
 #main_content {
