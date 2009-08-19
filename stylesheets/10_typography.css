@@ -265,6 +265,7 @@ strong {
 
 #header li a {
   font-size:            100%;
+  line-height:          40px;
   text-decoration:      none;
   text-transform:       lowercase;
 }
