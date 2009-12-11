@@ -224,7 +224,7 @@ code, .text th {
   background:             transparent url(../images/arrow_down.gif) no-repeat left center;
 }
 
-#go_to_selection a {
+#go_to_selection {
   background:             url(../images/select_pictures.gif) no-repeat top left;
 }
 
@@ -349,11 +349,11 @@ pre, #toc {
   border-color:           #770000;
 }
 
-.application #main_content ul li a, .application #main_content ul li a:visited, #valid_search_suggestions a, #go_to_selection a:link, #go_to_selection a:visited, .go_to_checkout a {
+.application #main_content ul li a, .application #main_content ul li a:visited, #valid_search_suggestions a, #go_to_selection:link, #go_to_selection:visited, .go_to_checkout a {
   color:                  #7B7BA4;
 }
 
-#go_to_selection a:hover {
+#go_to_selection:hover {
   color:                  #8585CC;
   background:             url(../images/select_pictures_hover.gif) no-repeat top left;
 }

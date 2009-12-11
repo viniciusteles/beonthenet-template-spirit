@@ -282,7 +282,7 @@ strong {
 	font-size:            110%;
 }
 
-#go_to_selection a {
+#go_to_selection {
   line-height:          1.4em;
 }
 
@@ -389,7 +389,7 @@ p#not_found, .application #main_content h2 {
   text-decoration:      none;
 }
 
-#header p strong a, h1 a:visited, .pages a:hover, .pages a.previous:hover, .pages a.next:hover, #tags a:hover, #go_to_selection a, #all_pictures a, #cart_items a, #selected_pictures a {
+#header p strong a, h1 a:visited, .pages a:hover, .pages a.previous:hover, .pages a.next:hover, #tags a:hover, #go_to_selection, #all_pictures a, #cart_items a, #selected_pictures a {
   text-decoration:      none;
 }
 
@@ -401,7 +401,7 @@ p#not_found, .application #main_content h2 {
 /*  font-size:            inherit;*/
 }
 
-.application #main_content ul li a, .application #main_content ul li a:visited, #valid_search_suggestions a, #go_to_selection a:link, #go_to_selection a:visited, .go_to_checkout a {
+.application #main_content ul li a, .application #main_content ul li a:visited, #valid_search_suggestions a, #go_to_selection:link, #go_to_selection:visited, .go_to_checkout a {
   text-decoration:      none;
 }
 
