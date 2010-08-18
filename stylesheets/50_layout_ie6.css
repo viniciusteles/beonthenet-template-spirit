@@ -23,3 +23,13 @@ body.videos #thumbnails img {
 #facebox a {
   padding-top:          10px;
 }
+
+
+/* Flickr */
+#thumbnails cite a, #thumbnails cite a:hover {
+  background-image:       url(../images/flickr_ie6.png);
+  filter:                 alpha(opacity=30);
+}
+#thumbnails cite a:hover {
+  filter:                 alpha(opacity=100);
+}

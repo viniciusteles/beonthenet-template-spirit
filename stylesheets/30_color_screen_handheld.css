@@ -402,6 +402,26 @@ pre, #toc {
 }
 
 
+/* Flickr */
+#main_content h5 a, #big_picture cite a {
+  background:         transparent url(../images/flickr_logo.png) no-repeat left top;
+}
+
+#thumbnails cite a {
+  background:         transparent url(../images/flickr.png) no-repeat left top;
+}
+#thumbnails cite a:hover {
+  background-image:   url(../images/flickr_hover.png);
+}
+
+body #footer h6 {
+  color:              #A5A5CB;
+}
+body #footer h6 em {
+  color:              #7B7BA4;
+}
+/* /Flickr */
+
 
 /* Exclusivo */
 #header li.current a {
