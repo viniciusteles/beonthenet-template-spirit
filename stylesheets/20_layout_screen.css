@@ -750,7 +750,7 @@ p#not_found {
 /* /Text */
 
 
-/* Flickr */
+/* Flickr e Picasa */
 #main_content h5 {
   padding:            0;
   margin:             -3.25em 0 2em;
@@ -760,16 +760,16 @@ p#not_found {
 }
 
 #main_content h5 a, #big_picture cite a {
-  display:            inline-block;
-  width:              37px;
-  overflow:           hidden;
-  vertical-align:     bottom;
+/*  display:            inline-block;*/
+/*  width:              37px;*/
+/*  overflow:           hidden;*/
+/*  vertical-align:     bottom;*/
 }
 
 #thumbnails cite {
   display:            block;
   width:              15px;
-  height:             8px;
+  height:             14px;
   margin:             0;
   position:           absolute;
   right:              1px;
@@ -796,7 +796,7 @@ p#not_found {
 body #footer h6 {
   margin:             2em 0 -.5em;
 }
-/* /Flickr */
+/* /Flickr e Picasa */
 
 
 /* Disappearing content */
