@@ -97,6 +97,36 @@ code {
 /* /Layout (screen) global settings */
 
 
+/* Social network */
+#social_network {
+  text-align:             right;
+
+  display:                block;
+  padding:                3px 2px;
+
+  background:             url(../images/header_bg.jpg) top;
+}
+
+#social_network p {
+  height:                 16px;
+  margin:                 0;
+}
+
+#social_network a {
+  margin-left:            3px;
+}
+#social_network a:first-child {
+  float:                  left;
+  margin:                 0;
+
+  opacity:                .4;
+}
+#social_network a:first-child:hover {
+  opacity:                1;
+}
+/* /Social network */
+
+
 /* Header */
 #header, #main_content, #footer {
   padding-right:        3.9em;
