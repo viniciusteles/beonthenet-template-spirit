@@ -258,20 +258,12 @@ strong {
 }
 
 #header li {
-	font-size:            100%;
-	letter-spacing:       0.01em;
-	line-height:          1em;
+  font-size:            90%;
 }
 
 #header li a {
-  font-size:            100%;
-  line-height:          40px;
   text-decoration:      none;
   text-transform:       lowercase;
-}
-
-#global_search #query {
-  line-height:          22px;
 }
 
 #see_data_sheet {

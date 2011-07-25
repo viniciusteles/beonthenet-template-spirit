@@ -179,16 +179,6 @@ code, .text th {
   color:                  #A5A5CB;
 }
 
-
-#global_search {
-  background:             transparent url(../images/global_search_bg.png) no-repeat right;
-}
-
-#global_search #query {
-  color:                  #A5A5CB;
-  background:             transparent url(../images/query.png) no-repeat center;
-}
-
 #go_back_to_thumbnails {
   background:             transparent url(../images/arrow_left.gif) no-repeat left center;
 }
@@ -198,7 +188,7 @@ code, .text th {
 }
 
 #header {
-  background:             url(../images/header_bg.jpg) bottom;
+  background:             url(../images/header_bg.jpg) top;
   border-bottom-color:    #3B3B48;
 }
 
@@ -207,7 +197,20 @@ code, .text th {
 }
 
 #header ul {
-  background:             transparent url(../images/menu_bg.png) no-repeat left;
+  background:             #32334A url(../images/menu_bg.png) repeat-x center bottom;
+  border-color:           #19173A;
+  box-shadow:             inset 0 1px 0 #4a4859;
+}
+
+#global_search {
+  background:             #292938;
+  border-color:           #3B3B48;
+}
+
+#global_search #query {
+  color:                  #A5A5CB;
+  background:             #181831 url(../images/query.gif) no-repeat 7px center;  
+  box-shadow:             0 1px 0 #3B3B48;
 }
 
 #main_content {
