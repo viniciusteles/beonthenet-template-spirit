@@ -188,7 +188,7 @@ code, .text th {
 }
 
 #header {
-  background:             url(../images/header_bg.jpg) top;
+  background:             url(../images/header_bg.jpg) bottom;
   border-bottom-color:    #3B3B48;
 }
 
