@@ -127,6 +127,63 @@ code {
 /* /Social network */
 
 
+/* Social media */
+.social_media {
+  padding:                          9px;
+  color:                            #FFF;
+  background:                       rgba(0,0,0,.6);
+
+  margin:                           0 -10px;
+}
+
+.social_media section {
+  display:                          inline-block;
+  width:                            49.5%;
+}
+
+.social_media em {
+  font-style:                       normal;
+  font-size:                        14px;
+}
+
+.social_media a {
+  text-decoration:                  none;
+  color:                            #DDD;
+}
+
+.social_media iframe {
+  vertical-align:                   middle;
+}
+
+@media screen and (min-width:1024px) {
+  .social_media {
+    padding-right:                  70px;
+    padding-left:                   70px;
+  }
+  .social_media section {
+    width:                          49.75%;
+  }
+}
+
+.social_links {
+  text-align:                       right;
+}
+
+.social_links a {
+  display:                          inline-block;
+  margin-left:                      6px;
+}
+
+.social_links img {
+  width:                            32px;
+  height:                           32px;
+  vertical-align:                   middle;
+  border-radius:                    3px;
+  box-shadow:                       0 1px 1px rgba(0, 0, 0, .75);
+}
+/* /Social media */
+
+
 /* Header */
 #header, #main_content, #footer {
   padding-right:        3.9em;
@@ -661,7 +718,6 @@ body > #facebox {
 	padding:              35px 3.9em 0 3.9em;
 	border-width:         0 1px 1px;
 	border-style:         solid;
-	margin-bottom:        2em;
 }
 
 #footer p {
