@@ -105,20 +105,6 @@ code, .text th {
   color:                  #7B7BA4;
 }
 
-#big_picture #next span, #big_video #next span {
-  background:             transparent url(../images/arrow_next.gif) no-repeat center left;
-}
-
-#big_picture a span, #big_video span {
-  background:             transparent url(../images/arrow_previous.gif) no-repeat center right;
-}
-
-
-#big_picture label {
-  background:             #292938;
-  border-color:           #44445D;
-}
-
 #cart_items {
   background-color:       #292938;
   border-color:           #5C5C79;
@@ -289,26 +275,6 @@ pre, #toc {
   color:                  #8585CC;
 }
 
-#big_picture a#next:active span, #big_video a#next:active span {
-  background-image:       url(../images/arrow_next_active.gif);
-}
-
-#big_picture a#next:hover span, #big_video a#next:hover span {
-  background-image:       url(../images/arrow_next_hover.gif);
-}
-
-#big_picture a#previous:active span, #big_video a#previous:active span {
-  background-image:       url(../images/arrow_previous_active.gif);
-}
-
-#big_picture a#previous:hover span, #big_video a#previous:hover span {
-  background-image:       url(../images/arrow_previous_hover.gif);
-}
-
-#big_video label span, #selected_pictures a.remove_picture:hover, #facebox {
-  background:             none;
-}
-
 #go_back_to_thumbnails:hover{
   background:             transparent url(../images/arrow_left_hover.gif) no-repeat left center;
 }
@@ -400,16 +366,8 @@ pre, #toc {
   border-color:           #424273;
 }
 
-#big_picture img {
-  border-color:           #44445D;
-}
-
 
 /* Flickr e Picasa */
-#main_content h5 a, #big_picture cite a {
-/*  background:         transparent url(../images/flickr_logo.png) no-repeat left top;*/
-}
-
 #thumbnails cite.flickr a {
   background:         transparent url(../images/flickr.png) no-repeat left 7px;
 }
@@ -430,6 +388,41 @@ body #footer h6 em {
   color:              #7B7BA4;
 }
 /* /Flickr e Picasa */
+
+
+/* Big picture, big video */
+#big_picture #previous span, #big_video #previous span {
+  background:             transparent url(../images/arrow_previous.gif) no-repeat center right;
+}
+#big_picture #previous:hover span, #big_video #previous:hover span {
+  background-image:       url(../images/arrow_previous_hover.gif);
+}
+#big_picture #previous:active span, #big_video #previous:active span {
+  background-image:       url(../images/arrow_previous_active.gif);
+}
+#big_picture #next span, #big_video #next span {
+  background:             transparent url(../images/arrow_next.gif) no-repeat center left;
+}
+#big_picture #next:hover span, #big_video #next:hover span {
+  background-image:       url(../images/arrow_next_hover.gif);
+}
+#big_picture #next:active span, #big_video #next:active span {
+  background-image:       url(../images/arrow_next_active.gif);
+}
+
+#big_picture img {
+  border-color:           #44445D;
+}
+
+#big_picture label {
+  background:             #292938;
+  border-color:           #44445D;
+}
+
+#big_video label span, #selected_pictures a.remove_picture:hover, #facebox {
+  background:             none;
+}
+/* /Big picture, big video */
 
 
 /* Exclusivo */
